@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class Bank {
     private Connection con;
-    //private UnicodeSet users;
+
 User user;
     public Bank() {
         try {

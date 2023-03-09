@@ -8,7 +8,7 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java34","root", "Password123!" );
-            Statement stmt = con.createStatement();
+            Statement git  = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM bank_user");
 
             System.out.println("\tUser table:");   //users table
